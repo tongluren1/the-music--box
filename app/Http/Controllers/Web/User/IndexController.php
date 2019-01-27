@@ -1,15 +1,14 @@
 <?php
 
-namespace App\Http\Controllers\Test;
+namespace App\Http\Controllers\Web\User;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use Qmang\Wechat\Qmang;
 
 class IndexController extends Controller
 {
-    public function index()
+    public function index(Request $request)
     {
-        return Qmang::get_msg();
+        return 11;
     }
 }

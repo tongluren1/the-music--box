@@ -15,4 +15,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/test/index','\App\Http\Controllers\Test\IndexController@index');
+Route::get('/test/index','\App\Http\Controllers\Web\User\IndexController@index');
